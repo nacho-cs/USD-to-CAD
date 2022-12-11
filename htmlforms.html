@@ -1,0 +1,33 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="Title">Enter Amount (USD)</div>
+      <div class="inputContainer">
+        <span>$</span>
+        <input
+          type="text"
+          id="amount"
+          placeholder="0.00"
+        />
+      </div>
+      <div id="button" onclick="exchangeRate()">Calculate</div>
+      <div id="output"></div>
+    </div>
+    <script src="exchangeRate.js"></script>
+  </body>
+</html>
